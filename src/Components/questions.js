@@ -30,6 +30,8 @@ class Questions extends React.Component{
         this.setState({currentQuestion: this.state.currentQuestion + 1})
 
 
+    }
+    
     render(){
         console.log(this.state.score);
         return(
